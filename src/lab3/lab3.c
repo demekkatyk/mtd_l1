@@ -5,6 +5,7 @@ int a = 512; // Глобальная переменная
 
 int main()
 {
+    
     // 1. Типы переменных. Измените код так чтобы в результате вышло 1764
     int theUltimateAnswer = 42;
     theUltimateAnswer *= theUltimateAnswer;
