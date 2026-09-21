@@ -17,8 +17,7 @@
  * @param size      Number of rows and columns (matrix is size x size).
  * @param direction 'R' for clockwise, 'L' for counter-clockwise.
  * @return          0 on success, 1 if direction is neither 'R' nor 'L'.
- */
- 
+ */ 
 int rotateMatrix(int** matrix, unsigned int size, char direction)
 {
     if (direction != 'R' && direction != 'L') return 1;
